@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Jersey 15", sans-serif;
+  font-size: 16px;
+  background-image: url(candy-pastel-color-pattern-design_23-2150623222.avif);
+  background-size: cover;
+}
+
+.container {
+  width: 500px;
+  background-color: #7ea1ff;
+  margin: 200px auto;
+  height: 500px;
+  border-radius: 20px;
+  border: 2px solid #ffd1e3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.models {
+  width: 100%;
+  background-color: #fffab7;
+  height: 50%;
+  border-bottom: 5px solid #5bbcff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.box1 {
+  margin-right: 50px;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.box2 {
+  margin-left: 50px;
+  font-weight: bold;
+  font-size: 50px;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.welcomes {
+  margin-bottom: 40px;
+  font-size: 70px;
+}
+.btn1 {
+  margin-right: 20px;
+  padding: 15px 15px;
+  border: 2px solid #94ffd8;
+  background-color: #ffd1e3;
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: "Jersey 15", sans-serif;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.btn2 {
+  margin-right: 20px;
+  padding: 15px 50px;
+  border: 2px solid #94ffd8;
+  background-color: #64d299;
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: "Jersey 15", sans-serif;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.btn3 {
+  margin-right: 2px;
+
+  padding: 15px 50px;
+  border: 2px solid #94ffd8;
+  background-color: #f3ca79;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 30px;
+  font-family: "Jersey 15", sans-serif;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.btn1:hover {
+  transform: scale(1.1);
+}
+.btn2:hover {
+  transform: scale(1.1);
+}
+.btn3:hover {
+  transform: scale(1.1);
+}
